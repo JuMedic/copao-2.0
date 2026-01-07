@@ -4,74 +4,77 @@
 
 ## 🎯 Sobre o Projeto
 
-COPÃO é uma aplicação web premium para adega moderna, com design dark, glassmorphism e experiência de usuário sofisticada voltada para o público noturno e jovens adultos.
+COPÃO é uma aplicação web premium para adegas modernas, focada em design sofisticado, experiência de usuário fluida e identidade visual marcante.
 
-## ✨ Características
+### ✨ Características
 
-- 🎨 Design Premium Dark Mode
-- 🌟 Glassmorphism e Neon Suave
-- 📱 100% Responsivo (Mobile First)
-- ⚡ Animações Fluidas
-- 🛒 Sistema de Carrinho Funcional
-- 👨‍💼 Painel Administrativo
+- 🌑 **Dark Mode Premium** com glassmorphism
+- 🎨 **Paleta Sofisticada**: Preto fosco, roxo vinho e dourado
+- ✨ **Animações Suaves** e micro-interações
+- 📱 **Responsivo** (Mobile First)
+- 🛒 **Carrinho Funcional** com gerenciamento de estado
+- 🎭 **7 Telas Completas** navegáveis
 
-## 🚀 Tecnologias
-
-- React 18+ com Vite
-- Tailwind CSS
-- Framer Motion (animações)
-- Lucide React (ícones)
-- React Router DOM
-- Context API (gerenciamento de estado)
-
-## 📦 Instalação
+## 🚀 Como Executar
 
 ```bash
-# Clone o repositório
-git clone https://github.com/JuMedic/copao-2.0.git
-
-# Entre na pasta
-cd copao-2.0
-
-# Instale as dependências
+# Instalar dependências
 npm install
 
-# Rode o projeto
+# Executar em desenvolvimento
 npm run dev
+
+# Build para produção
+npm run build
 ```
 
-## 🎨 Paleta de Cores
+## 🎨 Identidade Visual
 
-- **Preto Fosco:** `#0E0E0E`
-- **Roxo Vinho:** `#6A0DAD`
-- **Dourado Suave:** `#C9A24D`
-- **Branco Gelo:** `#F5F5F5`
+### Paleta de Cores
+- **Preto Fosco**: `#0E0E0E`
+- **Roxo Vinho**: `#6A0DAD`
+- **Dourado Suave**: `#C9A24D`
+- **Branco Gelo**: `#F5F5F5`
+
+### Tipografia
+- **Principal**: Poppins (SemiBold, Medium, Regular, Bold)
+- **Secundária**: Inter
 
 ## 📱 Telas
 
 1. **Splash** - Animação de entrada
 2. **Home** - Categorias de produtos
-3. **Lista de Produtos** - Catálogo com filtros
-4. **Detalhe** - Informações completas do produto
-5. **Carrinho** - Gestão de pedidos
-6. **Confirmação** - Feedback visual do pedido
+3. **Lista de Produtos** - Catálogo navegável
+4. **Detalhe do Produto** - Informações completas
+5. **Carrinho** - Gerenciamento de pedidos
+6. **Confirmação** - Feedback visual
 7. **Admin** - Painel do proprietário
 
-## 🎭 Funcionalidades
+## 🛠️ Stack Tecnológica
 
-- ✅ Navegação fluida entre telas
-- ✅ Adicionar/remover produtos do carrinho
-- ✅ Controle de quantidade
-- ✅ Aplicação de cupons de desconto
-- ✅ Filtros de produtos
-- ✅ Busca de produtos
-- ✅ Animações e micro-interações
-- ✅ Dashboard administrativo
+- React 18
+- Vite
+- React Router
+- Framer Motion
+- Lucide React
+- CSS Modules + Tailwind
 
-## 📄 Licença
+## 📦 Estrutura do Projeto
 
-MIT License - sinta-se livre para usar este projeto!
+```
+src/
+├── components/     # Componentes reutilizáveis
+├── pages/          # Páginas/Telas
+├── context/        # Context API (Estado global)
+├── data/           # Dados mockados
+├── styles/         # Estilos globais
+└── App.jsx         # Componente raiz
+```
+
+## 🎭 Conceito
+
+Design premium voltado para público jovem adulto e ambiente noturno, com foco em sofisticação, facilidade e tecnologia.
 
 ---
 
-Desenvolvido com 🍷 por JuMedic
+**Desenvolvido com 🍷 por JuMedic**
